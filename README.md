@@ -6,13 +6,14 @@
 
 ## Descrição
 
-Este repositório contém soluções para exercícios de programação em Python, organizados em 3 atividades principais. Cada atividade aborda conceitos fundamentais da linguagem Python, desde operações básicas até estruturas condicionais e cálculos mais complexos.
+Este repositório contém soluções para exercícios de programação em Python, organizados em 6 atividades principais. Cada atividade aborda conceitos fundamentais da linguagem Python, desde operações básicas até APIs externas e módulos avançados.
 
 ## Estrutura do Projeto
 
 ```
 pythonexamplesstudiesEDN/
 ├── README.md
+├── requirements.txt
 ├── atividade1/
 │   ├── 1_saudacao.py
 │   ├── 2_calculadora_soma.py
@@ -26,14 +27,29 @@ pythonexamplesstudiesEDN/
 │   ├── 4_calculadora_consumo_combustivel.py
 │   ├── 5_calculadora_soma_entrada_usuario.py
 │   └── 6_calculadora_salario_horas.py
-└── atividade3/
-    ├── 1_area_circunferencia.py
-    ├── 2_classificador_idade.py
-    ├── 3_calculadora_imc.py
-    ├── 4_conversor_temperatura.py
-    ├── 5_verificador_ano_bissexto.py
-    ├── 6_calculadora_comissao.py
-    └── 7_calculadora_media.py
+├── atividade3/
+│   ├── 1_area_circunferencia.py
+│   ├── 2_classificador_idade.py
+│   ├── 3_calculadora_imc.py
+│   ├── 4_conversor_temperatura.py
+│   ├── 5_verificador_ano_bissexto.py
+│   ├── 6_calculadora_comissao.py
+│   └── 7_calculadora_media.py
+└── atividade4/
+    ├── 1_calculadora_com_erros.py
+    ├── 2_registro_notas.py
+    ├── 3_verificador_senha.py
+    └── 4_contador_par_impar.py
+└── atividade5/
+    ├── 1_calculadora_gorjeta.py
+    ├── 2_verificador_palindromo.py
+    ├── 3_calculadora_desconto.py
+    └── 4_calculadora_idade_dias.py
+└── atividade6/
+    ├── 1_gerador_senha.py
+    ├── 2_perfil_usuario_aleatorio.py
+    ├── 3_consulta_cep.py
+    └── 4_consulta_cotacao.py
 ```
 
 ## Atividades
@@ -68,7 +84,46 @@ Exercícios com estruturas condicionais e algoritmos mais complexos:
 6. **Calculadora de Comissão** - Calcula comissão de vendedor
 7. **Calculadora da Média** - Sistema completo de média escolar
 
+### 📁 Atividade 4 - Tratamento de Erros e Validação
+Exercícios focados em tratamento de exceções e validação de dados:
+
+1. **Calculadora com Tratamento de Erros** - Calculadora com try/except
+2. **Registro de Notas** - Sistema de notas com validação
+3. **Verificador de Senha** - Valida força de senhas
+4. **Contador Par/Ímpar** - Conta números pares e ímpares
+
+### 📁 Atividade 5 - Funções e Aplicações Práticas
+Exercícios com funções e aplicações do mundo real:
+
+1. **Calculadora de Gorjeta** - Calcula gorjeta em restaurantes
+2. **Verificador de Palíndromo** - Verifica se texto é palíndromo
+3. **Calculadora de Desconto** - Calcula preço com desconto
+4. **Calculadora de Idade em Dias** - Converte idade para dias
+
+### 📁 Atividade 6 - APIs e Módulos Externos
+Exercícios com APIs externas e módulos avançados do Python:
+
+1. **Gerador de Senha** - Gera senhas aleatórias personalizáveis
+2. **Perfil de Usuário Aleatório** - Usa API Random User Generator
+3. **Consulta de CEP** - Consulta endereços via API ViaCEP
+4. **Consulta de Cotação** - Cotações de moedas via AwesomeAPI
+
 ## Como Executar
+
+### Instalação de Dependências
+
+Para executar os programas da **Atividade 6**, você precisa instalar a biblioteca `requests`:
+
+```bash
+pip install -r requirements.txt
+```
+
+Ou instalar manualmente:
+```bash
+pip install requests
+```
+
+### Executando os Programas
 
 Para executar qualquer programa, navegue até a pasta correspondente e execute:
 
@@ -92,6 +147,18 @@ python 1_saudacao.py
   - Estruturas condicionais (if/elif/else)
   - Formatação de strings
   - Operadores lógicos e relacionais
+  - Tratamento de exceções (try/except)
+  - Validação de dados
+  - Funções personalizadas
+  - Loops e estruturas de repetição
+  - Módulos e bibliotecas externas
+  - Requisições HTTP (requests)
+  - Manipulação de APIs REST
+  - Geração de dados aleatórios
+  - Tratamento de exceções (try/except)
+  - Loops e estruturas de repetição
+  - Validação de dados
+  - Funções personalizadas
 
 ## Observações
 
