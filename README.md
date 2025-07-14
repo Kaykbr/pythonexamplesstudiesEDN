@@ -6,7 +6,7 @@
 
 ## Descrição
 
-Este repositório contém soluções para exercícios de programação em Python, organizados em 6 atividades principais. Cada atividade aborda conceitos fundamentais da linguagem Python, desde operações básicas até APIs externas e módulos avançados.
+Este repositório contém soluções para exercícios de programação em Python, organizados em 7 atividades principais. Cada atividade aborda conceitos fundamentais da linguagem Python, desde operações básicas até manipulação de arquivos e análise de dados.
 
 ## Estrutura do Projeto
 
@@ -50,6 +50,11 @@ pythonexamplesstudiesEDN/
     ├── 2_perfil_usuario_aleatorio.py
     ├── 3_consulta_cep.py
     └── 4_consulta_cotacao.py
+└── atividade7/
+    ├── 1_log_ml_estatisticas.py
+    ├── 2_escrever_csv.py
+    ├── 3_ler_csv.py
+    └── 4_json_pessoa.py
 ```
 
 ## Atividades
@@ -108,6 +113,14 @@ Exercícios com APIs externas e módulos avançados do Python:
 3. **Consulta de CEP** - Consulta endereços via API ViaCEP
 4. **Consulta de Cotação** - Cotações de moedas via AwesomeAPI
 
+### 📁 Atividade 7 - Manipulação de Arquivos e Análise de Dados
+Exercícios focados em leitura/escrita de arquivos e análise estatística:
+
+1. **Análise de Log ML** - Calcula estatísticas de tempos de execução
+2. **Escrever CSV** - Cria arquivo CSV com dados pessoais
+3. **Ler CSV** - Lê e exibe dados de arquivo CSV
+4. **Manipular JSON** - Lê e escreve dados em formato JSON
+
 ## Como Executar
 
 ### Instalação de Dependências
@@ -155,10 +168,10 @@ python 1_saudacao.py
   - Requisições HTTP (requests)
   - Manipulação de APIs REST
   - Geração de dados aleatórios
-  - Tratamento de exceções (try/except)
-  - Loops e estruturas de repetição
-  - Validação de dados
-  - Funções personalizadas
+  - Manipulação de arquivos (leitura/escrita)
+  - Processamento de dados CSV e JSON
+  - Análise estatística básica
+  - Módulo statistics do Python
 
 ## Observações
 
