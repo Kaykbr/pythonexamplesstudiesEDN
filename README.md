@@ -1,6 +1,6 @@
 # Exercícios de Python - EDN
 
-**Autor:** Kayky Brito Silva  
+**Autor:** Kayky Bezerra da Silva  
 **Email:** kaykybritosilva23@gmail.com  
 **Data:** 29 de junho de 2025
 
