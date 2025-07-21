@@ -1,12 +1,12 @@
 # Exercícios de Python - EDN
 
-**Autor:** Kayky Bezerra da Silva  
+**Autor:** Kayky Brito Silva  
 **Email:** kaykybritosilva23@gmail.com  
 **Data:** 29 de junho de 2025
 
 ## Descrição
 
-Este repositório contém soluções para exercícios de programação em Python, organizados em 7 atividades principais. Cada atividade aborda conceitos fundamentais da linguagem Python, desde operações básicas até manipulação de arquivos e análise de dados.
+Este repositório contém soluções para exercícios de programação em Python, organizados em 8 atividades principais. Cada atividade aborda conceitos fundamentais da linguagem Python, desde operações básicas até aprendizado de máquina e análise de dados.
 
 ## Estrutura do Projeto
 
@@ -55,6 +55,8 @@ pythonexamplesstudiesEDN/
     ├── 2_escrever_csv.py
     ├── 3_ler_csv.py
     └── 4_json_pessoa.py
+└── atividade8/
+    └── 1_analise_metricas_classificacao.py
 ```
 
 ## Atividades
@@ -121,11 +123,16 @@ Exercícios focados em leitura/escrita de arquivos e análise estatística:
 3. **Ler CSV** - Lê e exibe dados de arquivo CSV
 4. **Manipular JSON** - Lê e escreve dados em formato JSON
 
+### 📁 Atividade 8 - Machine Learning e Métricas de Classificação
+Exercício prático com aprendizado de máquina e análise de métricas:
+
+1. **Análise de Métricas de Classificação** - Implementa Random Forest para classificação de câncer de mama com análise completa de métricas (Acurácia, Precisão, Recall, F1-Score, AUC-ROC)
+
 ## Como Executar
 
 ### Instalação de Dependências
 
-Para executar os programas da **Atividade 6**, você precisa instalar a biblioteca `requests`:
+Para executar os programas da **Atividade 6** e **Atividade 8**, você precisa instalar as dependências:
 
 ```bash
 pip install -r requirements.txt
@@ -133,7 +140,7 @@ pip install -r requirements.txt
 
 Ou instalar manualmente:
 ```bash
-pip install requests
+pip install requests scikit-learn numpy
 ```
 
 ### Executando os Programas
@@ -172,6 +179,10 @@ python 1_saudacao.py
   - Processamento de dados CSV e JSON
   - Análise estatística básica
   - Módulo statistics do Python
+  - Machine Learning (scikit-learn)
+  - Métricas de classificação
+  - Random Forest Classifier
+  - Análise de datasets médicos
 
 ## Observações
 
